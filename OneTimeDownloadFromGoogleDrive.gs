@@ -4,6 +4,13 @@
 // //   "exceptionLogging": "STACKDRIVER",
 // //   "runtimeVersion": "V8"
 // }
+// When downloading a file from Google Drive, login credentials and an access token are generally required. However, if you want to download a file without authorization in a simple situation, the file must be publicly shared. Unfortunately, files cannot always be shared publicly due to various restrictions.
+//
+// In this method, the file is made publicly accessible but only for one minute. Usually once a publicly shared file begins downloading from Google Drive, the download continues even if the file's permissions are changed back to private during the process. This approach effectively creates a "pseudo one-time download."
+//
+// YOU MUST GET A API KEY - https://developers.google.com/maps/documentation/javascript/get-api-key
+
+
 
 function deletePermission() {
   const forTrigger = "deletePermission";
