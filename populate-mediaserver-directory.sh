@@ -1,3 +1,4 @@
+# Author: Austin Songer
 #!/usr/bin/env bash
 
 BASE_DIR="$HOME/PlexMedia"
