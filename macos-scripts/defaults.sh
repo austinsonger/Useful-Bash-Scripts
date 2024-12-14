@@ -160,6 +160,10 @@ defaults write com.apple.finder ShowPathbar -bool true
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
+# Menu bar: show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent YES
+
+
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
